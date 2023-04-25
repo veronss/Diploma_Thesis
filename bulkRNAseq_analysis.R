@@ -20,7 +20,8 @@ library(ggrepel)
 library(RColorBrewer)
 
 #### import of count.table and meta.data ####
-# download provided files at:, and create your own path to the files here below
+# data import from the link:
+# please create your own path below for downloaded files
 count.table <- read.csv("~/count.table.csv", row.names=1, sep=";")
 meta.data <- read.csv("~/meta.data.csv", row.names=1, sep = ";")
 
