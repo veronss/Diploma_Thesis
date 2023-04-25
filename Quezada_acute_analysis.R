@@ -14,7 +14,7 @@ library(SingleR) # must be version 1.0.1
 
 #### import of downloaded data, QC and creation of Seurat object ####
 # data import from the link: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE213470
-# please create you own path to downloaded file below
+# please create your own path below for downloaded files
 GSE213470_UMI4Wenhao_Cl13_full_table <- read.csv("~/GSE213470_UMI4Wenhao_Cl13_full_table.csv", row.names=1)
 GSE213470_Metadata4Wenhao_Cl13 <- read.csv("~/Quezada/GSE213470_Metadata4Wenhao_Cl13.csv", row.names=1)
 
