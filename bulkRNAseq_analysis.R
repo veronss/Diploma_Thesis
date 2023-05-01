@@ -22,8 +22,8 @@ library(RColorBrewer)
 #### import of count.table and meta.data ####
 # data import from the link: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE230754
 # please create your own path below for downloaded files
-count.table <- read.csv("~/count.table.csv", row.names=1, sep=";")
-meta.data <- read.csv("~/meta.data.csv", row.names=1, sep = ";")
+count.table <- read.csv("~/GSE230754_count.table.csv", row.names=1, sep=";")
+meta.data <- read.csv("~/GSE230754_meta.data.csv", row.names=1, sep = ";")
 
 # split of data to perform analysis on individual time points
 counts_d0 <- dplyr::select(count.table, c(1:6))
