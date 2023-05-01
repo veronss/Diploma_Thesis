@@ -20,7 +20,7 @@ library(ggrepel)
 library(RColorBrewer)
 
 #### import of count.table and meta.data ####
-# data import from the link:
+# data import from the link: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE230754
 # please create your own path below for downloaded files
 count.table <- read.csv("~/count.table.csv", row.names=1, sep=";")
 meta.data <- read.csv("~/meta.data.csv", row.names=1, sep = ";")
